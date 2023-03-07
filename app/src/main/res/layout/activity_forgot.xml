@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgotActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvFPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:textSize="35sp"
+        android:textColor="@color/text"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="70dp"/>
+    <TextView
+        android:id="@+id/tvDontWorry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't worry we are here"
+        android:textSize="25sp"
+        android:textColor="@color/text"
+        android:layout_marginLeft="70dp"/>
+
+    <EditText
+        android:id="@+id/etVerifyEmail"
+        android:layout_width="280sp"
+        android:layout_height="60sp"
+        android:hint="Enter your email"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:drawableRight="@drawable/ic_baseline_email_24"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRecover"
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:text="click here to Recover"
+        android:textColor="@color/white"
+        android:background="@color/text"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tvGoToLoginScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go back to login screen"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="20dp"
+        android:textColor="@color/text"/>
+
+</LinearLayout>
